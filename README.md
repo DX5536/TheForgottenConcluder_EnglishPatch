@@ -16,14 +16,14 @@ No game files (no .exe, no Data folder, no GameAssembly.dll, no i18n.sqlite, no 
 ## Apply after a Steam download
 
 1. Extract this zip on top of your Steam game folder. Creates:
-  - BepInEx/  
-	- dotnet/  
-	- _translation/  
-	- TextFit_plugin_source/
-  -  winhttp.dll  
-	- doorstop_config.ini  
-	- .doorstop_version  
-	- changelog.txt
+  - BepInEx/
+  - dotnet/
+  - _translation/
+  - TextFit_plugin_source/
+  -  winhttp.dll
+  -  doorstop_config.ini
+  -  .doorstop_version
+  -  changelog.txt
 
 2. Regenerate i18n.sqlite (English text DB) - AUTOMATIC
      a. Copy Steam's fresh "ForgottenConcluder_Data/StreamingAssets/EditData/i18n.sqlite" into and rename "_translation/i18n.sqlite.ORIGINAL" (This is your original Chinese language backup!)
