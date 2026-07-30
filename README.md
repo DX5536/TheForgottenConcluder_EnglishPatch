@@ -26,8 +26,8 @@ No game files (no .exe, no Data folder, no GameAssembly.dll, no i18n.sqlite, no 
   -  changelog.txt
 
 2. Regenerate i18n.sqlite (English text DB) - AUTOMATIC
-	a. Copy Steam's fresh "ForgottenConcluder_Data/StreamingAssets/EditData/i18n.sqlite" into and rename "_translation/i18n.sqlite.ORIGINAL" (This is your original Chinese language backup!)
-	b. Run:  "python _translation/rebuild.py" -> Overwrites the game's i18n.sqlite with the merged English.
+- a. Copy Steam's fresh "ForgottenConcluder_Data/StreamingAssets/EditData/i18n.sqlite" into and rename "_translation/i18n.sqlite.ORIGINAL" (This is your original Chinese language backup!)
+- b. Run:  "python _translation/rebuild.py" -> Overwrites the game's i18n.sqlite with the merged English.
 	
 	The script auto-detects paths from its own folder. Override via "env vars TFC_SP (translation folder)" or "TFC_GAME (game root)" if you keep them elsewhere.
 
