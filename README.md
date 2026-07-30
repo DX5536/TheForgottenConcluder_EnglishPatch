@@ -40,8 +40,9 @@ No game files (no .exe, no Data folder, no GameAssembly.dll, no i18n.sqlite, no 
      cd TextFit_plugin_source && dotnet build -c Release
      cp bin/Release/net6.0/TextFit.dll ../BepInEx/plugins/TextFit.dll
 
-Launch the game. English text loads from i18n.sqlite; 
-English fonts render inside the patched Unity assets; the TextFit plugin handles runtime UI fitting via BepInEx.
+Launch the game. WARNING: On your first launch, after BepInEx also launch, the game might close itself. This is normal behaviour so that the patch can be applied correctly.
+
+English text loads from i18n.sqlite; English fonts render inside the patched Unity assets; the TextFit plugin handles runtime UI fitting via BepInEx.
 
 > To revert the game to Chinese: copy "i18n.sqlite.ORIGINAL" that you have as backup over "ForgottenConcluder_Data\StreamingAssets\EditData\i18n.sqlite"
 
