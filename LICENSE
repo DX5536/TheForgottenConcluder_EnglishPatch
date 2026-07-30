@@ -1,0 +1,42 @@
+MIT License
+
+Copyright (c) 2026 DX5536
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+The above MIT License applies ONLY to the original work in this repository:
+
+- TextFit plugin C# source (`TextFit_plugin_source/`)
+- Python scripts in `_translation/` (rebuild.py, quality_pass.py,
+  font_patch.py, and helpers)
+- The translation caches (`edit_cache.json`, `auto_cache.json`) as an
+  authored dataset -- NOT the underlying Chinese source strings they
+  key on, which remain the property of Tome Creatives.
+- README.txt, NOTICE.md, and other documentation authored for this
+  repository.
+
+Bundled third-party components (BepInEx, Il2CppInterop, the fonts, the
+.NET runtime, etc.) retain their own licenses -- see NOTICE.md.
+
+The game *The Forgotten Concluder* / *霸剑霄云录* by Tome Creatives is
+NOT covered by this license. No game code, assets, text, or fonts are
+distributed with this patch. Users must own a legitimate copy of the
+game (https://store.steampowered.com/app/2159730/) to use the patch.
